@@ -1,0 +1,35 @@
+<itsabeastystatewerein version='2.0' sample='1000000'>
+<statenode id='Tree.t:R_fragrantissima_align_trimal_final'>((0:1.0504951542408295E7,((((1:7110189.063659957,(2:6127898.954342864,24:6127898.954342864)40:982290.1093170922)44:303055.2811142858,(5:1825248.201822667,7:1825248.201822667)32:5587996.142951576)27:623976.1610087743,6:8037220.505783017)37:1176434.4718418987,((3:2949269.6138269124,((4:1778538.7028546901,(8:402285.3180957117,9:402285.3180957117)50:1376253.3847589784)35:335196.29643523414,(25:553650.9785794514,26:553650.9785794514)29:1560084.020710473)45:835534.6145369881)38:3578264.119538398,((10:3082198.6913154456,(11:3066272.6097818683,(((12:171881.2276215899,18:171881.2276215899)28:557315.5634398892,13:729196.7910614791)31:1249813.0939013138,((((14:19227.643571438653,17:19227.643571438653)46:96167.92371600674,15:115395.56728744539)42:400365.4151756797,(19:21996.089445309415,21:21996.089445309415)43:493764.8930178157)48:138328.15988606727,(20:131227.46321044498,22:131227.46321044498)30:522861.6791387474)49:1324920.7426136006)47:1087262.7248190753)34:15926.081533577293)51:2759764.3327374575,16:5841963.024052903)36:685570.7093124073)39:2686121.244259605)33:1291296.5647833794)41:6475708.777427733,23:1.6980660319836028E7)52:0.0</statenode>
+<statenode id='kappa.s:R_fragrantissima_align_trimal_final'>kappa.s:R_fragrantissima_align_trimal_final[1 1] (0.0,Infinity): 8.354016812353926 </statenode>
+<statenode id='mutationRate.s:R_fragrantissima_align_trimal_final'>mutationRate.s:R_fragrantissima_align_trimal_final[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='gammaShape.s:R_fragrantissima_align_trimal_final'>gammaShape.s:R_fragrantissima_align_trimal_final[1 1] (0.001,1000.0): 0.12939800892129177 </statenode>
+<statenode id='ucldStdev.c:R_fragrantissima_align_trimal_final'>ucldStdev.c:R_fragrantissima_align_trimal_final[1 1] (0.0,Infinity): 4.619824705156413E-4 </statenode>
+<statenode id='rateCategories.c:R_fragrantissima_align_trimal_final'>rateCategories.c:R_fragrantissima_align_trimal_final[52 1] (0,51): 37 44 13 42 9 0 50 18 33 25 51 27 8 48 44 2 28 9 44 36 12 26 29 12 47 45 21 9 33 40 2 11 25 38 3 5 44 8 33 33 10 19 7 15 8 5 32 0 39 26 14 14 </statenode>
+<statenode id='BDBirthRate.t:R_fragrantissima_align_trimal_final'>BDBirthRate.t:R_fragrantissima_align_trimal_final[1 1] (0.0,10000.0): 2.167208946987351E-7 </statenode>
+<statenode id='BDDeathRate.t:R_fragrantissima_align_trimal_final'>BDDeathRate.t:R_fragrantissima_align_trimal_final[1 1] (0.0,1.0): 0.34116437189553345 </statenode>
+<statenode id='ucldMean.c:R_fragrantissima_align_trimal_final'>ucldMean.c:R_fragrantissima_align_trimal_final[1 1] (-Infinity,Infinity): 3.4128341800369035E-9 </statenode>
+<statenode id='freqParameter.s:R_fragrantissima_align_trimal_final'>freqParameter.s:R_fragrantissima_align_trimal_final[4 1] (0.0,1.0): 0.27040349100662076 0.22592300009580607 0.22983932340948013 0.27383418548809285 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"KappaScaler.s:R_fragrantissima_align_trimal_final","p":0.3732282292786262,"accept":212,"reject":585,"acceptFC":201,"rejectFC":576,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:R_fragrantissima_align_trimal_final","p":0.20071810258272693,"accept":314,"reject":560,"acceptFC":301,"rejectFC":545,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":934.4106221347776,"accept":17311,"reject":0,"acceptFC":16787,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:R_fragrantissima_align_trimal_final","p":0.16061566725218715,"accept":7148,"reject":18305,"acceptFC":6681,"rejectFC":17943,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:R_fragrantissima_align_trimal_final","p":"NaN","accept":55204,"reject":29865,"acceptFC":53423,"rejectFC":28891,"rejectIv":29563,"rejectOp":29563},
+{"id":"CategoriesSwapOperator.c:R_fragrantissima_align_trimal_final","p":"NaN","accept":77162,"reject":8006,"acceptFC":74951,"rejectFC":7451,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:R_fragrantissima_align_trimal_final","p":"NaN","accept":79783,"reject":5441,"acceptFC":77399,"rejectFC":5081,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:R_fragrantissima_align_trimal_final","p":0.5555049781022146,"accept":5793,"reject":19855,"acceptFC":5626,"rejectFC":19203,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:R_fragrantissima_align_trimal_final","p":0.3801739079793056,"accept":4336,"reject":21047,"acceptFC":4141,"rejectFC":20444,"rejectIv":4112,"rejectOp":4112},
+{"id":"BirthDeathUniformOperator.t:R_fragrantissima_align_trimal_final","p":"NaN","accept":141487,"reject":115153,"acceptFC":136938,"rejectFC":111406,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:R_fragrantissima_align_trimal_final","p":4240.901096685156,"accept":108456,"reject":18709,"acceptFC":105309,"rejectFC":17692,"rejectIv":6305,"rejectOp":6305},
+{"id":"BirthDeathNarrow.t:R_fragrantissima_align_trimal_final","p":"NaN","accept":40548,"reject":86943,"acceptFC":39288,"rejectFC":83993,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:R_fragrantissima_align_trimal_final","p":"NaN","accept":501,"reject":25004,"acceptFC":478,"rejectFC":24183,"rejectIv":13085,"rejectOp":13085},
+{"id":"BirthDeathWilsonBalding.t:R_fragrantissima_align_trimal_final","p":"NaN","accept":702,"reject":25042,"acceptFC":670,"rejectFC":24190,"rejectIv":3798,"rejectOp":3798},
+{"id":"BirthRateScaler.t:R_fragrantissima_align_trimal_final","p":0.3244718928584212,"accept":7666,"reject":18071,"acceptFC":7056,"rejectFC":17857,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:R_fragrantissima_align_trimal_final","p":0.05491333077790355,"accept":3020,"reject":22590,"acceptFC":2443,"rejectFC":22293,"rejectIv":19520,"rejectOp":19520},
+{"id":"ucldMeanScaler.c:R_fragrantissima_align_trimal_final","p":0.5386593421783967,"accept":2023,"reject":6475,"acceptFC":1964,"rejectFC":6230,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperator.c:R_fragrantissima_align_trimal_final","p":0.3494483212419099,"accept":7979,"reject":17828,"acceptFC":7433,"rejectFC":17582,"rejectIv":0,"rejectOp":0},
+{"id":"FrequenciesExchanger.s:R_fragrantissima_align_trimal_final","p":0.06923056171403982,"accept":291,"reject":586,"acceptFC":275,"rejectFC":577,"rejectIv":0,"rejectOp":0}
+]}
+-->

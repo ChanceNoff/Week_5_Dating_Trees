@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+    <data
+id="R_fragrantissima_align_trimal_final"
+spec="Alignment"
+name="alignment">
+                    <sequence id="seq_R_amoenolens_AF418615" spec="Sequence" taxon="R_amoenolens_AF418615" totalcount="4" value="CATTATCGTACAATGGAGGTGCTGGGGTTGTCGCTGACCTTTGAAAGGGTCGTGCACACCTCGGTGCTTTCACACACAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGGTCCCTTTTAGCTAGTTCTGAAGGGGGCTTTCGCGTTTTTACAAACACACCCTTTTAATGCAATATGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAAGGGCACACCCGTTTGAGTGTCGTGACATCCTCAAA-CCTTCTTGGTTTCTTGACTGAGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCCTTTGCTTGTTGAAGCCAGCTCCTCTTAAATGAATTAGTGGGGTCTGCTTTGCTGATCCTTGACGTGATAAGATG-CTTCTACGTCTTGGGTTACGCACTCCTGCTTCTAACCGTCTCATAGAAGACAAACGGT---------CGACTT-"/>
+                    <sequence id="seq_R_cf_foetens_DQ422023_UE180720037_Sweden" spec="Sequence" taxon="R_cf_foetens_DQ422023_UE180720037_Sweden" totalcount="4" value="CATTATCGTACAATCGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCAYGTTTTTACACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCATGACATCCTCAAAACTTCTTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTATTGCTGGCCTTCCTTTGTTGGAGCCAGCTCCTCTGAAATAAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTCGCACTCCTGCTTCTAACTGTCTCATAGAAGAC-AATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_cf_fragrantissima_KF245517_MICH52693_RL_Shaffer_TN_USA" spec="Sequence" taxon="R_cf_fragrantissima_KF245517_MICH52693_RL_Shaffer_TN_USA" totalcount="4" value="CATTATCGTACAATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCACATATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAAGGGCACACCCGTTTGAGTGTCGTGACATCCTCAAAACCTTCTTGGTTTCTTGACCGGAAAGGCTTTGGACTATGGAGGCTTTTGCTGGCCTTCCTTTGTCGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCTTATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTCGCACCCCTGCTTCTAACCGTCTCATAGAAGAC-AATGGTAAGTGATCGCCACTC-"/>
+                    <sequence id="seq_R_cf_laurocerasi_KF245497_WTUF39369_ID_USA" spec="Sequence" taxon="R_cf_laurocerasi_KF245497_WTUF39369_ID_USA" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTCGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACTTTCTTGGTTTCTTGACCAGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCATAGTAGACAAATGGT---------CCACTT-"/>
+                    <sequence id="seq_R_cf_laurocerasi_KF245502_OSC50010_WA_USA" spec="Sequence" taxon="R_cf_laurocerasi_KF245502_OSC50010_WA_USA" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCACAGTAGACAAATGGT---------CCACTC-"/>
+                    <sequence id="seq_R_foetens_AF418613_hue124_Fagus" spec="Sequence" taxon="R_foetens_AF418613_hue124_Fagus" totalcount="4" value="-------------------TGCTGGGGTTGTCGCTGACTTTTGAAAAGGTCGTGCACACCTTGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTCTTCACGTTTTTACATAGACACCCTTTTAATGAAATGTGTAGAATGTCTTTACTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCCTTTCTTTGTTGAAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCTGATCCTTGACGTGATAAGATATTTTCTACGTCTTGGGTTTCGCACTCCTGCTTCTAACCGTCTCATAGAAGAC-AATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_foetens_FJ845427_SMI196_BC_Canada_Picea" spec="Sequence" taxon="R_foetens_FJ845427_SMI196_BC_Canada_Picea" totalcount="4" value="CATTATCGTATAATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTCTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACACACAC---------ACAATGTATAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCATGACATCCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTGTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTCGCACTCCTGCTTCTAACCGTCTCTTAGAAGAC-GATGGT----------CACTT-"/>
+                    <sequence id="seq_R_foetens_KT934016_FH12277_Germany" spec="Sequence" taxon="R_foetens_KT934016_FH12277_Germany" totalcount="4" value="CATTATCATACAATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAAGGTCGTGCACACCTTGGTGCTCTCACACATAATCCATCTCACCCCTCTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTCTTCACGTTTTTACATAGACACCCTTTTAATGAAATGTGTAGAATGTCTTAC-TTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCCTTTCTTTGTTGAAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCTGATCCTTGACGTGATAAGATATTTTCTACGTCTTGGGTTTCGCACTCCTGCTTCTAACCGTCTCATAGAAGAC-AATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_fragrantissima_CRN211_DNA4639_ITS_Mt_Mitchell_NC_USA_Picea_Abies" spec="Sequence" taxon="R_fragrantissima_CRN211_DNA4639_ITS_Mt_Mitchell_NC_USA_Picea_Abies" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATTAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTAGCACTCCTGCTTCTAACCGTCTCACAGTAGACAAATGGT---------CCACTC-"/>
+                    <sequence id="seq_R_fragrantissima_CRN240_DNA4630_ITS_Mt_Mitchell_NC_USA_Picea_Abies" spec="Sequence" taxon="R_fragrantissima_CRN240_DNA4630_ITS_Mt_Mitchell_NC_USA_Picea_Abies" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATTAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTAGCACTCCTGCTTCTAACCGTCTCACAGTAGACAAATGGT---------CCACTC-"/>
+                    <sequence id="seq_R_fragrantissima_KJ530751_Italy_Quercus" spec="Sequence" taxon="R_fragrantissima_KJ530751_Italy_Quercus" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTT--ACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACTTCTTTGGTTTCTTGACCAGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGTAGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_fragrantissima_KJ834596_Italy_Quercus" spec="Sequence" taxon="R_fragrantissima_KJ834596_Italy_Quercus" totalcount="4" value="--------------GGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTT--ACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCAGGAAGGCTTTGGACCTTGGAGGCTTTTGCTGGCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGTAGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGGTTCGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_grata_KF318051_14_NY_USA" spec="Sequence" taxon="R_grata_KF318051_14_NY_USA" totalcount="4" value="--------------GGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTCCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACTGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGRCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGTAGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGCTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAACGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_grata_KJ834620_150_FL_USA_Quercus" spec="Sequence" taxon="R_grata_KJ834620_150_FL_USA_Quercus" totalcount="4" value="--------------GGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTCCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACTGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGTAGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGCTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_grata_UDB000004_Denmark_Fagus" spec="Sequence" taxon="R_grata_UDB000004_Denmark_Fagus" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGAGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_grata_UDB016090_Finland_mixed_forest" spec="Sequence" taxon="R_grata_UDB016090_Finland_mixed_forest" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGAGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_illota_DQ422024_UE260720023_Sweden" spec="Sequence" taxon="R_illota_DQ422024_UE260720023_Sweden" totalcount="4" value="CATTATCGTATGATGGGGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACAAAGACACCTTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCCTTGGCATTCCGAGGGGCACACCCGTTTGAGCGTCGTGACATCCTCAAA-CCTTCTTGGTTTCTTGACCAGGAAGGCTTTGGACCTTGGAGGTTTTTGCTGGCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATATTTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAACGGTAAGTGATCGCCACTTT"/>
+                    <sequence id="seq_R_laurocerasi_AF418614_Germany_mixed_forest" spec="Sequence" taxon="R_laurocerasi_AF418614_Germany_mixed_forest" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGAGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_laurocerasi_EU598184_BB2004244_GSMNP_TN_USA" spec="Sequence" taxon="R_laurocerasi_EU598184_BB2004244_GSMNP_TN_USA" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTCCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTTGACTGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTTCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGTAGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGCTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAACGGTAAGTGATCGCCACTTT"/>
+                    <sequence id="seq_R_laurocerasi_JF908651_1725_Italy" spec="Sequence" taxon="R_laurocerasi_JF908651_1725_Italy" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGAGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_R_laurocerasi_KF245533_E00290481_Scotland" spec="Sequence" taxon="R_laurocerasi_KF245533_E00290481_Scotland" totalcount="4" value="-----------------------------GTCGCTGACTTTTGAAAGAGTCGTGCACACCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_laurocerasi_KT933988_FH12178_Germany" spec="Sequence" taxon="R_laurocerasi_KT933988_FH12178_Germany" totalcount="4" value="CATTATCGTATGATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAAGAGTCGTGCACGCCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_laurocerasi_grata_KF245532_E00290534_Scotland" spec="Sequence" taxon="R_laurocerasi_grata_KF245532_E00290534_Scotland" totalcount="4" value="-----------------------------GTCGCTGACTTTTGAAAGAGTCGTGCACACCTCGGTGCTCTCACACATAATCCATCTCACCCCTTTTGTGCACCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTATACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCTTCCCTTTGTTGGAGCCAGCTCCTCTGAAATGGATTAGCAAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGTTTTCTACGTCTCGGGTTCTGCACTCCTGCTTCTAACCGTCTCACAGAAGACAAATGGTAAGTGATTGCCACTTT"/>
+                    <sequence id="seq_R_pectinatoides_KT933975_BPL276_GSMNP_TN_USA_Tsuga_Quercus_Pinus" spec="Sequence" taxon="R_pectinatoides_KT933975_BPL276_GSMNP_TN_USA_Tsuga_Quercus_Pinus" totalcount="4" value="CATTATCGTACAATGGAGGTGCTGGGGTTGTCGCTGACTTTTGAAACGGTCGTGCACGCCTCGGTACTCTCACATTCAATCCATCTCACCCCTCTTGTGCATCACCGCGTGGAGGCCCCTTTTGGCTAGTTCTAAAGGGGGTTTTCGCGTTTTTATACATACARGATTTTAATGCAATGCGTAGAATGTCATAC-TTTTGCGATCACACGCAATTAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAAGGGCACACCCGTTTGAGTGTCGTGACATCCTCAAA-CCTTCTTGGTTTCTTGACCAGGAAGGCTTTGGACTCTGGAGGTTTTTGCTGGCCTTACTTTGTTGAAGCCAGCTCCTCTAAAATGGATTAGTGGGATCTGCTTTGCGGATACTTGACGTGATAAGATA-TTTCTACGTCTTGGATCTCGCACTCCTGCTTCTAACCGTCTCATAGAAGAC-AATGGGAAGTGATCGCCACTT-"/>
+                    <sequence id="seq_Russula_foetens____JX425383_HMAS194245_China_mixed_forest" spec="Sequence" taxon="Russula_foetens____JX425383_HMAS194245_China_mixed_forest" totalcount="4" value="CTTCAACGT-----GAAGGTGCTGGGGTTGTCGCTGACCTTTGAAAGGGTCGTGCACACCTTGGTGCTCTCACATATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGGGGACCCCTTTTGGCTAGTTCTGAGGGGGGTCTTCACGTTTTTACACAGACACCCTTTTAATGCAATGTGTAGAATGTCTTACTTTTTGCGATCATACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGCATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTTGGTTTCTTGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCCTTCCTTTGTTGAAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCTATCCTTGACGTGATAAGATGTTTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCATAGAAGAC-AATGGTAAGTGATTGCCACTT-"/>
+                    <sequence id="seq_Russula_sp_KX441049_HMAS253194_China" spec="Sequence" taxon="Russula_sp_KX441049_HMAS253194_China" totalcount="4" value="CATTATCGTATGATGGAGGTGCCGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTTGGCTAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCAGTTTCTCGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGGGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGATTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCACAGTAGACAAATGGT---------CCACTC-"/>
+                    <sequence id="seq_Uncultured_fungus_JQ396487_China_Monotropastrum_Sciaphilum" spec="Sequence" taxon="Uncultured_fungus_JQ396487_China_Monotropastrum_Sciaphilum" totalcount="4" value="CATTATCGTATGATGGAGGTGCCGGGGTTGTCGCTGACTTTTGAAAGGGTCGTGCACACCTCGGTGCTCTCGCACATAATCCATCTCACCCCTTTTGTGCATCACCGCGTGAGGACCCCTTTTGGCCAGTTCTGAGGGGGGTTTTCACGTTTTTACACAGACAC-------ATGCAATGCGTAGAATGTCTTACTTTTTGCGATCACACGCAATCAATACAACTTTCAACAACGGATCTCTTGGCTCTCGCATCGATGAAGAACGCAGCGAAATGCGATACGTAATGTGAATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACCTTGCGCCCTTTGGTATTCCGAGGGGCACACCCGTTTGAGTGTCGTGACATTCTCAAAACCTTCTCGGTTTCTCGACCGGGAAGGCTTTGGACTTTGGAGGCTTTTGCTGGCATTCCTTTGTTGGAGCCAGCTCCTCTGAAATGAATTAGTGAGGTCTGCTTTGCCGATCCTTGACGTGATAAGATGATTTCTACGTCTTGGGTTTTGCACTCCTGCTTCTAACCGTCTCACAGTAGACAAATGGT---------CCACTC-"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="1000000">
+    <state id="state" spec="State" storeEvery="5000">
+        <tree id="Tree.t:R_fragrantissima_align_trimal_final" spec="beast.evolution.tree.Tree" name="stateNode">
+            <taxonset id="TaxonSet.R_fragrantissima_align_trimal_final" spec="TaxonSet">
+                <alignment idref="R_fragrantissima_align_trimal_final"/>
+            </taxonset>
+        </tree>
+        <parameter id="kappa.s:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" lower="0.0" name="stateNode">2.0</parameter>
+        <parameter id="mutationRate.s:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="gammaShape.s:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:R_fragrantissima_align_trimal_final" spec="parameter.IntegerParameter" dimension="52">1</stateNode>
+        <parameter id="BDBirthRate.t:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="BDDeathRate.t:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="ucldMean.c:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="freqParameter.s:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+    <init id="RandomTree.t:R_fragrantissima_align_trimal_final" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:R_fragrantissima_align_trimal_final" taxa="@R_fragrantissima_align_trimal_final">
+        <populationModel id="ConstantPopulation0.t:R_fragrantissima_align_trimal_final" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:R_fragrantissima_align_trimal_final" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@BDBirthRate.t:R_fragrantissima_align_trimal_final" relativeDeathRate="@BDDeathRate.t:R_fragrantissima_align_trimal_final" tree="@Tree.t:R_fragrantissima_align_trimal_final"/>
+            <prior id="BirthRatePrior.t:R_fragrantissima_align_trimal_final" name="distribution" x="@BDBirthRate.t:R_fragrantissima_align_trimal_final">
+                <Uniform id="Uniform.5" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="DeathRatePrior.t:R_fragrantissima_align_trimal_final" name="distribution" x="@BDDeathRate.t:R_fragrantissima_align_trimal_final">
+                <Uniform id="Uniform.6" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:R_fragrantissima_align_trimal_final" name="distribution" x="@freqParameter.s:R_fragrantissima_align_trimal_final">
+                <Uniform id="Uniform.3" name="distr"/>
+            </prior>
+            <prior id="GammaShapePrior.s:R_fragrantissima_align_trimal_final" name="distribution" x="@gammaShape.s:R_fragrantissima_align_trimal_final">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="KappaPrior.s:R_fragrantissima_align_trimal_final" name="distribution" x="@kappa.s:R_fragrantissima_align_trimal_final">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="MeanRatePrior.c:R_fragrantissima_align_trimal_final" name="distribution" x="@ucldMean.c:R_fragrantissima_align_trimal_final">
+                <Uniform id="Uniform.4" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:R_fragrantissima_align_trimal_final" name="distribution" x="@ucldStdev.c:R_fragrantissima_align_trimal_final">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+            <distribution id="Root date.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:R_fragrantissima_align_trimal_final">
+                <taxonset id="Root date" spec="TaxonSet">
+                    <taxon id="R_amoenolens_AF418615" spec="Taxon"/>
+                    <taxon id="R_cf_foetens_DQ422023_UE180720037_Sweden" spec="Taxon"/>
+                    <taxon id="R_cf_fragrantissima_KF245517_MICH52693_RL_Shaffer_TN_USA" spec="Taxon"/>
+                    <taxon id="R_cf_laurocerasi_KF245497_WTUF39369_ID_USA" spec="Taxon"/>
+                    <taxon id="R_cf_laurocerasi_KF245502_OSC50010_WA_USA" spec="Taxon"/>
+                    <taxon id="R_foetens_AF418613_hue124_Fagus" spec="Taxon"/>
+                    <taxon id="R_foetens_FJ845427_SMI196_BC_Canada_Picea" spec="Taxon"/>
+                    <taxon id="R_foetens_KT934016_FH12277_Germany" spec="Taxon"/>
+                    <taxon id="R_fragrantissima_CRN211_DNA4639_ITS_Mt_Mitchell_NC_USA_Picea_Abies" spec="Taxon"/>
+                    <taxon id="R_fragrantissima_CRN240_DNA4630_ITS_Mt_Mitchell_NC_USA_Picea_Abies" spec="Taxon"/>
+                    <taxon id="R_fragrantissima_KJ530751_Italy_Quercus" spec="Taxon"/>
+                    <taxon id="R_fragrantissima_KJ834596_Italy_Quercus" spec="Taxon"/>
+                    <taxon id="R_grata_KF318051_14_NY_USA" spec="Taxon"/>
+                    <taxon id="R_grata_KJ834620_150_FL_USA_Quercus" spec="Taxon"/>
+                    <taxon id="R_grata_UDB000004_Denmark_Fagus" spec="Taxon"/>
+                    <taxon id="R_grata_UDB016090_Finland_mixed_forest" spec="Taxon"/>
+                    <taxon id="R_illota_DQ422024_UE260720023_Sweden" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_AF418614_Germany_mixed_forest" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_EU598184_BB2004244_GSMNP_TN_USA" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_JF908651_1725_Italy" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_KF245533_E00290481_Scotland" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_KT933988_FH12178_Germany" spec="Taxon"/>
+                    <taxon id="R_laurocerasi_grata_KF245532_E00290534_Scotland" spec="Taxon"/>
+                    <taxon id="R_pectinatoides_KT933975_BPL276_GSMNP_TN_USA_Tsuga_Quercus_Pinus" spec="Taxon"/>
+                    <taxon id="Russula_foetens____JX425383_HMAS194245_China_mixed_forest" spec="Taxon"/>
+                    <taxon id="Russula_sp_KX441049_HMAS253194_China" spec="Taxon"/>
+                    <taxon id="Uncultured_fungus_JQ396487_China_Monotropastrum_Sciaphilum" spec="Taxon"/>
+                </taxonset>
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="M">18.0</parameter>
+                    <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </distribution>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.R_fragrantissima_align_trimal_final" spec="ThreadedTreeLikelihood" data="@R_fragrantissima_align_trimal_final" tree="@Tree.t:R_fragrantissima_align_trimal_final">
+                <siteModel id="SiteModel.s:R_fragrantissima_align_trimal_final" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:R_fragrantissima_align_trimal_final" shape="@gammaShape.s:R_fragrantissima_align_trimal_final">
+                    <parameter id="proportionInvariant.s:R_fragrantissima_align_trimal_final" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:R_fragrantissima_align_trimal_final" spec="HKY" kappa="@kappa.s:R_fragrantissima_align_trimal_final">
+                        <frequencies id="estimatedFreqs.s:R_fragrantissima_align_trimal_final" spec="Frequencies" frequencies="@freqParameter.s:R_fragrantissima_align_trimal_final"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:R_fragrantissima_align_trimal_final" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:R_fragrantissima_align_trimal_final" rateCategories="@rateCategories.c:R_fragrantissima_align_trimal_final" tree="@Tree.t:R_fragrantissima_align_trimal_final">
+                    <LogNormal id="LogNormalDistributionModel.c:R_fragrantissima_align_trimal_final" S="@ucldStdev.c:R_fragrantissima_align_trimal_final" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="KappaScaler.s:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@kappa.s:R_fragrantissima_align_trimal_final" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="gammaShapeScaler.s:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@gammaShape.s:R_fragrantissima_align_trimal_final" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:R_fragrantissima_align_trimal_final"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">591</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@ucldStdev.c:R_fragrantissima_align_trimal_final" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:R_fragrantissima_align_trimal_final" spec="IntRandomWalkOperator" parameter="@rateCategories.c:R_fragrantissima_align_trimal_final" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:R_fragrantissima_align_trimal_final" spec="SwapOperator" intparameter="@rateCategories.c:R_fragrantissima_align_trimal_final" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:R_fragrantissima_align_trimal_final" spec="UniformOperator" parameter="@rateCategories.c:R_fragrantissima_align_trimal_final" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:R_fragrantissima_align_trimal_final" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:R_fragrantissima_align_trimal_final" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:R_fragrantissima_align_trimal_final" spec="Uniform" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:R_fragrantissima_align_trimal_final" spec="SubtreeSlide" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:R_fragrantissima_align_trimal_final" spec="Exchange" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:R_fragrantissima_align_trimal_final" spec="Exchange" isNarrow="false" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:R_fragrantissima_align_trimal_final" spec="WilsonBalding" tree="@Tree.t:R_fragrantissima_align_trimal_final" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@BDBirthRate.t:R_fragrantissima_align_trimal_final" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@BDDeathRate.t:R_fragrantissima_align_trimal_final" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="ucldMeanScaler.c:R_fragrantissima_align_trimal_final" spec="ScaleOperator" parameter="@ucldMean.c:R_fragrantissima_align_trimal_final" scaleFactor="0.5" weight="1.0"/>
+
+    <operator id="relaxedUpDownOperator.c:R_fragrantissima_align_trimal_final" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="ucldMean.c:R_fragrantissima_align_trimal_final"/>
+        <down idref="Tree.t:R_fragrantissima_align_trimal_final"/>
+    </operator>
+
+    <operator id="FrequenciesExchanger.s:R_fragrantissima_align_trimal_final" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:R_fragrantissima_align_trimal_final"/>
+    </operator>
+
+    <logger id="tracelog" spec="Logger" fileName="fragrantissima.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.R_fragrantissima_align_trimal_final"/>
+        <log id="TreeHeight.t:R_fragrantissima_align_trimal_final" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:R_fragrantissima_align_trimal_final"/>
+        <log idref="kappa.s:R_fragrantissima_align_trimal_final"/>
+        <log idref="mutationRate.s:R_fragrantissima_align_trimal_final"/>
+        <log idref="gammaShape.s:R_fragrantissima_align_trimal_final"/>
+        <log idref="ucldStdev.c:R_fragrantissima_align_trimal_final"/>
+        <log id="rate.c:R_fragrantissima_align_trimal_final" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:R_fragrantissima_align_trimal_final" tree="@Tree.t:R_fragrantissima_align_trimal_final"/>
+        <log idref="BirthDeath.t:R_fragrantissima_align_trimal_final"/>
+        <log idref="BDBirthRate.t:R_fragrantissima_align_trimal_final"/>
+        <log idref="BDDeathRate.t:R_fragrantissima_align_trimal_final"/>
+        <log idref="ucldMean.c:R_fragrantissima_align_trimal_final"/>
+        <log idref="Root date.prior"/>
+        <parameter idref="freqParameter.s:R_fragrantissima_align_trimal_final" name="log"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:R_fragrantissima_align_trimal_final" spec="Logger" fileName="$(tree).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:R_fragrantissima_align_trimal_final" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:R_fragrantissima_align_trimal_final" tree="@Tree.t:R_fragrantissima_align_trimal_final"/>
+    </logger>
+
+    <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+
+</run>
+
+</beast>
